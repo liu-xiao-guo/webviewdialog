@@ -1,0 +1,17 @@
+{
+    "name": "webviewdialog.liu-xiao-guo",
+    "description": "description of webviewdialog",
+    "architecture": "all",
+    "title": "webviewdialog",
+    "hooks": {
+        "webviewdialog": {
+            "apparmor": "webviewdialog.apparmor",
+            "desktop":  "webviewdialog.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

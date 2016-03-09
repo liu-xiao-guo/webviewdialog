@@ -1,0 +1,48 @@
+<html>
+   <head>
+
+    <style>
+        form.big {
+            line-height: 200%;
+        }
+    </style>
+   
+      <script type="text/javascript">
+         <!--
+            function getConfirmation(){
+               var retVal = confirm("Do you want to continue ?");
+               if( retVal == true ){
+                  return true;
+               }
+               else{
+                  return false;
+               }
+            }
+         //-->
+
+         <!--
+            function getAlert(){
+               alert("This is cool!");
+            }
+         //-->
+
+        <!--
+            function getPrompt(){
+               var retVal = prompt("Enter your name : ", "your name here");
+               // console.log("retVal: + " + retVal);
+            }
+         //-->
+      </script>
+      
+   </head>
+   <body>
+      <p>Click the following button to see the result: </p>
+      
+      <form class=big>
+         <input type="button" value="Alert Dialog" onclick="getAlert();" /> <br>
+         <input type="button" value="Confirm Dialog" onclick="getConfirmation();" /> <br>
+         <input type="button" value="Prompt Dialog" onclick="getPrompt();" />
+      </form>
+      
+   </body>
+</html>

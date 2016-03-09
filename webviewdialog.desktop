@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=webviewdialog
+Exec=qmlscene $@ Main.qml
+Icon=webviewdialog.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
